@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adore Jewels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#home" class="logo">ADORE<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+
+            <a href="#review">Review</a>
+            
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <a href="" class="fas fa-heart"></a>
+            <a href="cart.html" target="_blank" class="fas fa-shopping-cart"></a>
+            <a href="" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>ADORE Jewels</h3>
+            <span>Your Jewellary Paradise</span>
+            <p>Discover the world of timeless elegance and alluring beauty at Adore, where every piece of jewelry 
+                tells a unique story of craftsmanship and allure. Our website is your gateway to a curated collection 
+                of exquisite rings, bracelets, and necklaces, designed to complement your style and celebrate life's 
+                precious moments.
+            </p>
+            <a href="#products" class="btn ">Order Now</a>
+        </div>
+    </section>
+   <!-- About -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1613945407943-59cd755fd69e?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGlhbW9uZCUyMHJpbmd8ZW58MHx8MHx8fDA%3D">
+                
+            </div>
+            <div class="content">
+                <h3>Why choose Us?</h3>
+                <p>Adore is your destination for timeless elegance and exquisite jewelry. We bring you a curated 
+                    collection of rings, bracelets, and necklaces that celebrate the art of adornment. Each piece 
+                    is a masterpiece, meticulously crafted to stand the test of time. 
+                    </p>
+                    <p>Whether you're marking a
+                    special occasion or adding a touch of sophistication to your daily style, Adore is here 
+                    to accompany you on your journey. Discover the magic of jewelry with Adore and let every 
+                    piece tell a story of love, style, and you.</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="icons-container">
+        <div class="icons">
+            <div class="info">
+                <h3>Free Delivery</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="info">
+                <h3>Offers and gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="info">
+                <h3>7 Days returns</h3>
+                <span>money back guarentee</span>
+            </div>
+        </div>
+        <div class="icons">
+            <div class="info">
+                <h3>Secure payments</h3>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!--products-->
+    <section class="products" id="products">
+        <!-- new arrivals -->
+        <h1 class="heading">NEW ARRIVALS</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/61liKhn112L._UY695_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('GIVA',1000,'RING','https://m.media-amazon.com/images/I/61liKhn112L._UY695_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>GIVA</h3>
+                    <p></p>
+                    <div class="price">₹1000</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/51Q8ISqvWRL._UL1000_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('GIVA',1000,'BRACELET','https://m.media-amazon.com/images/I/51Q8ISqvWRL._UL1000_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>GIVA</h3>
+                    <div class="price">₹1000</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/61Bfe24F9OL._UL1500_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('GIVA',1000,'NECKLACE','https://m.media-amazon.com/images/I/61Bfe24F9OL._UL1500_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>GIVA</h3>
+                    <div class="price">₹1000</div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- rings -->
+        <h1 class="heading">RINGS</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://cdn.caratlane.com/media/catalog/product/J/R/JR03769-YGP900_1_lar.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('CARATLANE',2500,'RING','https://cdn.caratlane.com/media/catalog/product/J/R/JR03769-YGP900_1_lar.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>CARATLANE</h3>
+                    <div class="price">₹2500</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://cdn.caratlane.com/media/catalog/product/J/R/JR05817-1YP900_1_lar.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('CARATLANE',4000,'RING','https://cdn.caratlane.com/media/catalog/product/J/R/JR05817-1YP900_1_lar.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>CARATLANE</h3>
+                    <div class="price">₹4000</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://staticimg.titan.co.in/Mia/Catalog/552819FDRAE09_1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('MIA',6000,'RING','https://staticimg.titan.co.in/Mia/Catalog/552819FDRAE09_1.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>MIA</h3>
+                    <div class="price">₹6000</div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- necklaces -->
+        <h1 class="heading">NECKLACES</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/51CjpSLYiHL._UY695_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('GIVA',1565,'NECKLACE','https://m.media-amazon.com/images/I/51CjpSLYiHL._UY695_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>GIVA</h3>
+                    <div class="price">₹1565</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/51G0IKBFPlL._UY695_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('GIVA',1350,'NECKLACE','https://m.media-amazon.com/images/I/51G0IKBFPlL._UY695_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>GIVA</h3>
+                    <div class="price">₹1350</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/71lRpVc-XpL._UY695_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('ZENEME',600,'NECKLACE','https://m.media-amazon.com/images/I/71lRpVc-XpL._UY695_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>ZENEME</h3>
+                    <div class="price">₹600</div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- bracelets -->
+        <h1 class="heading">BRACELETS</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/51da1HSwecL._UY695_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('DIVA',500,'BRACELET','https://m.media-amazon.com/images/I/51da1HSwecL._UY695_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>DIVA</h3>
+                    <div class="price">₹500</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/61nhWalhqOL._UY695_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('YELLOW CHIMES',500,'BRACELET','https://m.media-amazon.com/images/I/61nhWalhqOL._UY695_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>YELLOW CHIMES</h3>
+                    <div class="price">₹500</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://m.media-amazon.com/images/I/71c8+QcDRgL._UY695_.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#products" class="cart-btn" onclick="addToCart('GIVA',4500,'BRACELET','https://m.media-amazon.com/images/I/71c8+QcDRgL._UY695_.jpg')">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>GIVA</h3>
+                    <div class="price">₹4500</div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- review -->
+    <section class="review" id="review">
+        <h1 class="heading">CUSTOMER'S REVIEW</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Text</p>
+                <div class="user">
+                    <img src="https://buffer.com/cdn-cgi/image/w=7000,fit=contain,q=90,f=auto/library/content/images/2023/10/free-images.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Porshce</h3>
+                        <span>Happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Text</p>
+                <div class="user">
+                    <img src="https://media.istockphoto.com/id/1446086947/photo/travel-van-and-woman-with-peace-hand-sign-on-road-trip-in-mexico-happy-relax-and-smile-summer.jpg?s=612x612&w=0&k=20&c=Nig6aMbhzzq2DQcaOktJNbzbPsca65EPHg2ivcl1Jpg=" alt="">
+                    <div class="user-info">
+                        <h3>Neo</h3>
+                        <span>Happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Text</p>
+                <div class="user">
+                    <img src="https://st.depositphotos.com/62628780/61386/i/450/depositphotos_613860872-stock-photo-summer-countryside-friends-running-road.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Ria</h3>
+                        <span>Happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <section class="footer" id="contact">
+        <div class="box-container">
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="">My account</a>
+                <a href="">My order</a>
+                <a href="">My favourite</a>
+            </div>
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="">India</a>
+                <a href="">USA</a>
+                <a href="">Japan</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="">+91 1234567890</a>
+                <a href="">abc@gmail.com</a>
+                <a href="">Hyderabad, Telangana, India - 500068</a>
+                
+            </div>
+            
+        </div>
+        <div class="credit">Created by <span>ABBC</span>| all rights reserved</div>
+    </section>
+
+    <script>
+        function addToCart(productName, price, acc, image) {
+    console.log(productName, price, acc, image);
+    var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+    var isItemInCart = cartItems.some(function(item) {
+      return item.name === productName;
+    });
+
+    if (isItemInCart) {
+      alert('This item is already in your cart!');
+      return;
+    }
+
+    cartItems.push({ name: productName, price: price, acc: acc, image: image });
+    //console.log(cartItems)
+    
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+    alert('Item added to cart successfully!');
+  }
+
+    </script>
+</body>
+</html>
